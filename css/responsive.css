@@ -1,4 +1,76 @@
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:300px) {
+  .myCarousel{
+    margin-top:3.5rem;
+  }
+  .carousel-item img{
+  height: 200px;
+  }
+}
+
+@media only screen and (min-width:400px) {  
+  .carousel-item img{
+  height: 220px;
+  }
+}
+
+@media only screen and (min-width:441px) {  
+  .navbar .container-fluid {
+    padding: 0 2rem;
+  }
+  
+  .carousel-item img{
+  height: 250px;
+  }
+}
+
+@media only screen and (min-width:540px) {    
+  .carousel-item img{
+  height: 280px;
+  }
+}
+
+@media only screen and (min-width:650px) {    
+  .carousel-item img{
+  height: 295px;
+  }
+}
+
+@media only screen and (min-width:710px) {  
+  .navbar .container-fluid {
+    padding: 0 3rem;
+  }
+  
+  .carousel-item img{
+  height: 310px;
+  }
+}
+
+@media only screen and (min-width:750px) {  
+  .carousel-item img{
+  height: 340px;
+  }
+}
+
+@media only screen and (min-width:800px) {
+  .navbar .container-fluid {
+    padding: 0 4rem;
+  }
+  .carousel-item img{
+  height: 400px;
+  }
+}
+
+@media only screen and (min-width:870px) {  
+  .navbar .container-fluid {
+    padding: 0 5rem;
+  }
+  
+  .carousel-item img{
+  height: 450px;
+  }
+}
+
+@media only screen and (min-width:930px) {  
   .navbar .container-fluid {
     padding: 0 8rem;
   }
