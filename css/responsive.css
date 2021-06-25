@@ -17,15 +17,27 @@
   .navbar .container-fluid {
     padding: 0 2rem;
   }
-  
+
+  margin-bottom: 3rem;
+
   .carousel-item img{
   height: 250px;
+  }
+}
+
+@media only screen and (max-width:441px) {  
+  .carousel-caption p{
+    font-size: 1rem;
   }
 }
 
 @media only screen and (min-width:540px) {    
   .carousel-item img{
   height: 280px;
+  }
+
+  .carousel-caption{
+    margin-bottom: 3rem;
   }
 }
 
@@ -55,6 +67,11 @@
   .navbar .container-fluid {
     padding: 0 4rem;
   }
+
+  .carousel-caption{
+    margin-bottom: 5rem;
+  }
+
   .carousel-item img{
   height: 400px;
   }
@@ -74,4 +91,10 @@
   .navbar .container-fluid {
     padding: 0 8rem;
   }
+}
+
+@media only screen and (max-width:575px) {  
+  .addrsContact {
+    height: 600px;    
+}
 }

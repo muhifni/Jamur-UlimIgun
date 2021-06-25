@@ -1,5 +1,4 @@
-.carousel-caption{
-  margin-bottom: 5rem;
+.carousel-caption{  
   font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   text-shadow: 0em 0em .3em #fff;
   /* color: black; */
@@ -17,4 +16,31 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.address{
+  background-color: rgba(94,94,94,.92);
+}
+
+.contact{
+  background-color: rgba(215, 128, 74,.92);
+  
+}
+
+.address-content, .contact-content{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2.5rem;
+  color: #fff;
+}
+
+.address a.btn{
+  border: 2.5px solid #d7804a;
+  background-color: #fff;
+  color: hsl(23deg 64% 40%);
+}
+
+.contact a.btn{
+  border: 2.5px solid #5e5e5e;
+  background-color: #fff;
+  color: #5e5e5e;
 }
