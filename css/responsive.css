@@ -5,6 +5,14 @@
   .carousel-item img{
   height: 200px;
   }
+
+  .navbar .container-fluid {
+    padding-right: 1.5rem;
+  }
+
+  .address-content img, .contact-container img{
+    width: 45px;
+  }
 }
 
 @media only screen and (min-width:400px) {  
@@ -41,9 +49,17 @@
   }
 }
 
+@media only screen and (min-width:576px) {    
+  
+}
+
 @media only screen and (min-width:650px) {    
   .carousel-item img{
   height: 295px;
+  }
+
+  .address-content img, .contact-container img{
+    width: 50px;
   }
 }
 
